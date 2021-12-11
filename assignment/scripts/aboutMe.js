@@ -2,10 +2,12 @@
 // 1 - Create a variable called `firstName` and assign it the value of your first name
 
 let firstName = "Brant";
+  console.log("First Name:", firstName);
 
 // 2 - Create a second variable called `lastName` and assign it the value of your last name
 
 let lastName = "McCarthy";
+  console.log("Last Name:", lastName);
 
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 // (remember, you already have variables for this, can you use those?)
@@ -14,11 +16,12 @@ let fullName = firstName + " " + lastName;
 
 // 4 - Console log the value of `fullName`
 
-console.log(fullName);
+console.log("Full Name:", fullName);
 
 // 5 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 
 let luckyNumber = 17;
+  console.log("Lucky Number:", luckyNumber);
 
 // 6 - Console log this sentence, adding in the variables you created above:
 // 'My name is (full name), and I think (lucky number) is a winner!'.
@@ -33,22 +36,27 @@ let adventurous = true;
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
 
 let food = "Pad Thai";
+  console.log("Favorite Food:", food);
 
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
 
 let pets = 1;
+  console.log("How many pets I own:", pets);
 
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 
 let friendsPets = 0;
+  console.log("How many pets my friends own:", friendsPets);
 
 // 11 - Add two pets to your `pets` variable
 
 pets += 2;
+  console.log("How many pets I own:", pets);
 
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
 
 const allowedPets = 3;
+  console.log("How many pets are allowed:", allowedPets);
 
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!",
 // if it's not true, console log "How about we stay home?"
