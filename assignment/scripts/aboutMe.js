@@ -12,7 +12,7 @@ let lastName = "McCarthy";
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 // (remember, you already have variables for this, can you use those?)
 
-let fullName = firstName + " " + lastName;
+let fullName = `${firstName} ${lastName}`
 
 // 4 - Console log the value of `fullName`
 
@@ -27,7 +27,7 @@ let luckyNumber = 17;
 // 'My name is (full name), and I think (lucky number) is a winner!'.
 // Refer back to the videos if you need help with this one.
 
-console.log("My Name is", fullName, "and i think", luckyNumber, "is a winner!");
+console.log(`My name is ${fullName} and I think ${luckyNumber} is a winner!`);
 
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 
@@ -45,13 +45,13 @@ let pets = 1;
 
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 
-let friendsPets = 0;
+let friendsPets = 3;
   console.log("How many pets my friends own:", friendsPets);
 
 // 11 - Add two pets to your `pets` variable
 
 pets += 2;
-  console.log("How many pets I own:", pets);
+  console.log("How many pets I own:", );
 
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
 
@@ -112,7 +112,7 @@ else {
 
 // 17 - Rewrite question 16 with a `switch` statement. You'll need to do research!
 
-var mostPets;
+let mostPets;
 switch (true){
   case (pets > friendsPets):
     mostPets = pets;
@@ -123,8 +123,6 @@ switch (true){
     console.log("Your friend has", friendsPets, "pets, that is", friendsPets - pets, "more than you!");
     break;
   default:
-  case (pets == friendsPets):
-    mostPets = -1;
     console.log("You and your friend both have", pets, "pets!");
 }
 
